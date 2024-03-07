@@ -12,12 +12,12 @@
   }
 </script>
 
-<section class="flex justify-between gap-8">
+<section class="flex justify-between gap-8 px-32">
   <div class="flex flex-col items-center justify-center">
     <img
-      src="/profile.png"
+      src="/dp.png"
       alt="profile "
-      class="rounded-full w-32 aspect-square border-4 border-slate-200"
+      class="rounded-full w-64 aspect-square border-4 border-slate-200"
     />
     <h2 class="text-2xl font-bold text-center text-[#4B5C6D]">Krishna Kiran</h2>
   </div>
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div class="flex justify-between border-b border-t">
+    <div class="flex justify-between">
       {#if followed}
         <Button
           on:click={onFollow}
@@ -50,8 +50,8 @@
           <AlertDialog.Trigger>
             <Button
               variant="outline"
-              class="px-8 py-5 border border-b-4 border-slate-400 hover:bg-[#0066FF] hover:text-white hover:border-b-blue-900"
-              >Followed
+              class="px-8 py-5 border border-b-4 border-slate-400 hover:text-red-600 hover:border-red-700 hover:border-b-red-900"
+              >Following
             </Button>
           </AlertDialog.Trigger>
           <AlertDialog.Content>

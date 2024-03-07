@@ -9,7 +9,7 @@
 </script>
 
 <nav
-  class="fixed top-0 flex justify-between w-full max-w-screen-xl py-2 border-b-2 border-gray-400 border-dotted"
+  class="   flex justify-between w-full max-w-screen-xl py-2 border-b-2 border-gray-400 border-dotted"
 >
   <a href="/" class="flex gap-2 items-center">
     <Logo />

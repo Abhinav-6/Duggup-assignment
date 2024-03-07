@@ -1,7 +1,9 @@
 <script>
   import Profile from "./profile.svelte";
+  import Timeline from "./timeline.svelte";
 </script>
 
-<main class="mt-20 w-full  px-8 py-8 lg:max-w-screen-xl">
+<main class=" w-full  py-8 lg:max-w-screen-xl">
   <Profile />
-</main>
+  <Timeline />
+</main>     
